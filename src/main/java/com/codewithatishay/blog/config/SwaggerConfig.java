@@ -1,6 +1,5 @@
 package com.codewithatishay.blog.config;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -47,9 +46,9 @@ public class SwaggerConfig {
 
 	private ApiInfo getInfo() {
 		// TODO Auto-generated method stub
-		return new ApiInfo("Blogging Application : Backend Course",
+		return new ApiInfo("Blogging Application : Backend Development",
 				"This project is developed for learning spring boot", "1.0", "Terms of Service",
-				new Contact("Atishay", "https://demo.com", "atishayjain759@gmail.com"), "License of APIS",
+				new Contact("Atishay Jain", "https://meau.in/atishay.portfolio", "atishayjain759@gmail.com"), "License of APIS",
 				"LICENSE_URL", Collections.emptyList());
 	}
 }
